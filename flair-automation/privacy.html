@@ -21,12 +21,13 @@
 </header>
 <main id="main" class="wrap">
 <h1>Privacy Policy: Flair Automation</h1>
-<p class="effective">Effective <time datetime="2026-09-28">September 28, 2026</time></p>
+<p class="effective">Effective <time datetime="2026-09-30">September 30, 2026</time></p>
 <p>This policy covers Flair Automation, a free, non-commercial Reddit Developer Platform app made by a volunteer r/Blink182 moderator (&quot;we&quot;). Reddit&#39;s <a href="https://redditinc.com/policies/user-agreement">User Agreement</a> and <a href="https://www.reddit.com/policies/privacy-policy">Privacy Policy</a> also apply.</p>
 <h2 id="where-data-is-kept">Where data is kept</h2>
 <p>The app keeps its data in Reddit&#39;s Developer Platform storage for the community it is installed in, separate per app and community. Uninstalling the app deletes its stored data, but not the posts and comments it made on Reddit. We run no servers of our own and never sell data or use it for ads.</p>
 <h2 id="what-the-app-keeps">What the app keeps</h2>
 <p>Flair Automation keeps its flair rules and, per tracked megathread, the post id, flair, the author&#39;s id and username, when it was posted and what the app did. A post is forgotten once deleted, or at the next lifecycle run once older than 365 days (moderators can choose 1 to 3,650).</p>
+<p>If moderators choose a home pinned post, Flair Automation also keeps that post&#39;s id, when it was chosen and the username (or user id) of the moderator who chose it, until a moderator stops using it or the post is deleted. For each post that took the home post&#39;s place it keeps the post id, when that started and ended and what the app pinned or unpinned; these records are deleted at the first home check (every 5 minutes by default, while the app is enabled) once 30 days have passed since the post stopped replacing the home post.</p>
 <p>The app writes technical logs that may include usernames, post titles and links. The developer reads them with Reddit&#39;s developer tools, which show at most the last 7 days.</p>
 <h2 id="what-is-sent-outside-reddit">What is sent outside Reddit</h2>
 <p>Flair Automation contacts nothing outside Reddit.</p>

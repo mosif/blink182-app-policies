@@ -21,17 +21,25 @@
 </header>
 <main id="main" class="wrap">
 <h1>Privacy Policy: Song Discussion</h1>
-<p class="effective">Effective <time datetime="2026-09-28">September 28, 2026</time></p>
+<p class="effective">Effective <time datetime="2026-09-30">September 30, 2026</time></p>
 <p>This policy covers Song Discussion, a free, non-commercial Reddit Developer Platform app made by a volunteer r/Blink182 moderator (&quot;we&quot;). Reddit&#39;s <a href="https://redditinc.com/policies/user-agreement">User Agreement</a> and <a href="https://www.reddit.com/policies/privacy-policy">Privacy Policy</a> also apply.</p>
 <h2 id="where-data-is-kept">Where data is kept</h2>
-<p>The app keeps its data in Reddit&#39;s Developer Platform storage for the community it is installed in, separate per app and community. Uninstalling the app deletes its stored data, but not the posts it made on Reddit. We run no servers of our own and never sell data or use it for ads.</p>
+<p>The app keeps its data in Reddit&#39;s Developer Platform storage for the community it is installed in, separate per app and community. Uninstalling the app deletes its stored data, including an open vote, but not the posts it made on Reddit. We run no servers of our own and never sell data or use it for ads.</p>
 <h2 id="what-the-app-keeps">What the app keeps</h2>
-<p>Song Discussion keeps no member data: only public catalogue data (Spotify songs) and a record of its own posts.</p>
-<p>The app writes technical logs that may include usernames, post titles and links. The developer reads them with Reddit&#39;s developer tools, which show at most the last 7 days.</p>
+<p>Song Discussion keeps public catalogue data (Spotify songs), a record of its own posts and, for the vote on next week&#39;s song, the songs on each ballot. While a vote is open, it also keeps, per member who votes:</p>
+<ul>
+<li>your Reddit user id</li>
+<li>the song you chose and when you last changed your vote</li>
+<li>a short-lived counter that limits how often you can submit the vote form, which expires within a minute</li>
+</ul>
+<p>When the next post closes the vote, every vote is deleted and only the number of votes per song is kept (for the newest 26 votes), never who voted for what. Members do not see the standings while a vote is open, and moderators see only the number of votes per song. The post that closes the vote names the winner and its number of votes. If the moderators set a minimum account age, the app checks the age of your account on Reddit when you vote, without storing it.</p>
+<p>The app writes technical logs that may include usernames, post titles and links. Its log lines about votes never say who voted or which song a member chose. The developer reads them with Reddit&#39;s developer tools, which show at most the last 7 days.</p>
 <h2 id="what-is-sent-outside-reddit">What is sent outside Reddit</h2>
 <ul>
-<li><strong>Spotify</strong>: the community&#39;s own Spotify app keys and requests for public catalogue data. No member or community data.</li>
+<li><strong>Spotify</strong>: the community&#39;s own Spotify app keys and requests for public catalogue data. No member or community data, and nothing about votes.</li>
 </ul>
+<h2 id="your-choices">Your choices</h2>
+<p>Voting is optional. Until the vote closes you can change your vote, or withdraw it with &quot;Withdraw my vote&quot; in the vote form, which deletes it. When the vote closes, all votes are deleted anyway.</p>
 <h2 id="children">Children</h2>
 <p>The app is only for people who meet Reddit&#39;s age requirements, and asks for nothing beyond what Reddit gives apps.</p>
 <h2 id="changes">Changes</h2>
